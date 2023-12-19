@@ -1,0 +1,212 @@
+* {
+    text-decoration: none;
+    font-family: fantasy; 
+
+}
+header, article {
+    width: 98%;
+    margin-left: 1%;
+}
+
+header {
+    margin-top: 1%;
+    background-color: #493E2D;
+    font-size: 1.3em;
+    height: 1.6em;
+    border-radius: 5px;
+}
+.header-link {
+    color: #F9F6F0;
+    margin: 15px;
+}
+.header-link:hover {
+    color: #A67E5B;
+
+}
+article{
+    margin-top: 0.6%;
+    background-color: #312F2C;
+    height: 80%;
+    border-radius: 5px;
+    font-size: 1.3em;
+    color: #F9F6F0;
+    padding: 1%;
+
+}
+
+.post-div{
+    margin-bottom: 1.7%;
+    
+}
+#posts {
+    margin: 0.6%;
+}
+
+#posts a{
+    color: #F9F6F0;
+
+}
+#posts a:hover{
+    color:#A67E5B;
+
+}
+.add-button,.edit-button,.back-button {
+    background-color: #594731;
+    color: #F9F6F0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+.add-button:hover,.edit-button:hover ,.back-button:hover{
+    background-color: #F9F6F0;
+    color: #594731;
+}
+
+.post-title {
+    font-size: 1.6em;
+}
+
+.post-content{
+    margin-left: 1%;
+}
+
+
+.button {
+    margin-bottom: 1%;
+}
+
+#buttons {
+    margin-bottom: 2%;
+    margin-right: 1%;
+    object-position: center;
+}
+.delete-button {
+    background-color: #ed1c24;
+    color: #F9F6F0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 1em;
+    border-color: #ed1c24;
+    border-left: none;
+    border-right: none;
+
+}
+.delete-button:hover{
+    background-color: 	#594731;
+    color: #ed1c24;
+    border-color: #594731;
+
+}
+
+.paginate {
+    margin-top: 3%;
+    
+}
+
+.paginate a {
+    background-color: #594731;
+    color: #F9F6F0;
+}
+
+.paginate a:hover {
+    background-color: #594731;
+    color: #F9F6F0;
+}
+
+label {
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+#title,#image, textarea,select {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.create-button ,.update-button{
+    background-color:  #594731;
+    color: #F9F6F0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 1em;
+    border-color:  #594731;
+    border-left: none;
+    border-right: none;
+
+}
+
+.create-button:hover, .update-button:hover{
+    background-color:#F9F6F0 ;
+    color: #594731 ;
+}
+
+#tags {
+    height: 2%;
+}
+
+select::selection {
+    background-color:#594731;
+    color:  #F9F6F0 ;
+}
+
+img {
+    height: 170px;
+    margin-bottom: 2%;
+}
+
+.logout-button{
+    display: inline;
+    color:  #F9F6F0 ;
+}
+
+.logout-button input{
+    /* background-color:#594731; */
+    border: none;
+    background-color: none;
+    text-decoration: none;
+}
+
+.logout-button input:hover{
+    /* background-color:#F9F6F0 ; */
+    color: #594731 ;
+}
+
+#login-popup{
+    width: 45%;
+    padding: 20px;
+    position:absolute;
+    left: 25%;
+    display: none;
+    z-index: 1;
+    background-color: #F9F6F0;
+    color: #312F2C;
+    border-radius: 13px;
+    margin-top: 17%;
+
+}
+
+.login-input, .password-input {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.close-button{
+
+}
